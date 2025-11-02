@@ -25,6 +25,9 @@ const nextConfig = {
       },
     ],
   },
+  experimental: {
+    optimizeCss: false, // vô hiệu hoá Lightning CSS
+  },
 };
 
 export default nextConfig;
